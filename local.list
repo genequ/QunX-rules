@@ -1,0 +1,24 @@
+[filter_local]
+host-suffix, helpshift.com, direct
+host-keyword, microsoft, direct
+host-suffix, ampproject.org, autoproxy
+user-agent, *google*, autoproxy
+user-agent, Twitter, autoproxy
+user-agent, Skype*, direct
+host-keyword, esko, direct
+user-agent, Outlook*, direct
+host-suffix, t.co, autoproxy
+host-suffix, twimg.com, autoproxy
+host-suffix, twitter.com, autoproxy
+host-keyword, google, autoproxy
+host-keyword, office, direct
+host-suffix, bing.com, direct
+host-suffix, icloud.com, direct
+host-suffix, apple.com, direct
+ip-cidr, 10.0.0.0/8, direct
+ip-cidr, 127.0.0.0/8, direct
+ip-cidr, 172.16.0.0/12, direct
+ip-cidr, 192.168.0.0/16, direct
+ip-cidr, 224.0.0.0/24, direct
+geoip, cn, direct
+final, autoproxy
